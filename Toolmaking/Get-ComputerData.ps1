@@ -35,3 +35,5 @@ Function Get-ComputerData {
 } #foreach
 }
 Get-Computerdata -computername WL301514,localhost | export-csv c:\temp\CompData.csv -NoTypeInformation
+
+# comment from surface
